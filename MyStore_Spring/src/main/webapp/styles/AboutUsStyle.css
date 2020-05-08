@@ -1,0 +1,12 @@
+.AboutUs {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(211,211,211);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.about {
+	color: #f0c600;
+}

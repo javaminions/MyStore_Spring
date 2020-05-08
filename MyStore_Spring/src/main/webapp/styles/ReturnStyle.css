@@ -1,0 +1,80 @@
+.Return {
+  display: block;
+  width: 80%;
+  height: auto;
+  background-color: rgb(238, 238, 238);
+  color: black;
+  padding: 10px;
+  margin: auto;
+}
+
+.return-title {
+ text-align: left;
+}
+.ordered-item {
+  text-align: left;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 0%;
+  border: 1px solid white;
+}
+
+.ordered-table {
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+}
+
+.ordered-td, .ordered-th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+.ordered-image {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+}
+
+.ordered-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.ordered-info {
+  display: inline-block;
+  width: 25%;
+}
+
+.ordered-details {
+  display: block;
+}
+
+.ordered-decision {
+  margin-left: 5%;
+  width: 25%;
+  display: inline-block;
+}
+.ordered-decision button {
+
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  color: black;
+  background-color: #8080803d;
+  
+}
+
+#ordered-price {
+	color: red;
+}
+

@@ -1,0 +1,24 @@
+.ContactUs {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-align: left;
+  margin-top: 10%;
+
+}
+
+.ContactUs input, textArea {
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  display: block;
+}
+
+.title {
+  padding: 10px;
+}
+
+.con {
+	text-align: center;
+	margin-top: 0;
+}
+

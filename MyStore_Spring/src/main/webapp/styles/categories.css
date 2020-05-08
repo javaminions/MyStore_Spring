@@ -1,0 +1,140 @@
+.navbar {
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+	animation: fadeInAnimation ease 0.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+.fonts {
+	font-family: Montserrat, Charcoal, sans-serif; 
+	font-size: 15px;
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+
+.filterDiv {
+  text-align: center;
+  margin: 5px;
+  display: none;
+  justify-content: flex-start;
+}
+
+#myBtnContainer { 
+	text-align: center;
+}
+
+.show {
+	display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+
+.wrap {
+	text-align: center;
+}
+
+.button2, .homeButton, .cart {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	margin: 20px auto;
+	max-width: 50px;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+a.button2 {
+	color: rgb(0, 115, 166);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 1px inset;
+}
+
+a.button2:hover {
+	color: #ffffff;
+	box-shadow: rgb(0, 115, 166) 0 80px 0px 2px inset;
+}
+
+a.cart {
+	margin-left: 5px;
+	color: rgb(0, 115, 166);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 0.5px inset;
+}
+
+a.cart:hover {
+	color: red;
+	box-shadow: white 0 80px 0px 2px inset;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+
+.homeButton {
+		margin-right: 25px;
+}
+
+/* Style the buttons */
+.top-btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.top-btn:hover {
+  background-color: #ddd;
+}
+
+.top-btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.card-img-top {
+  margin-top: 10px;
+  width: 175px;
+  height: 150px;
+}
+
+.card {
+	display:inline-block;
+	
+	}
+.status_out {
+	color: red !important;
+}

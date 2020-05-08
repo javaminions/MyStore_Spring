@@ -1,0 +1,13 @@
+.Testimonials {
+  width: 60%;
+  height: auto;
+  text-align: left;
+  background-image: linear-gradient(to bottom right, orange, yellow);
+  padding: 20px;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.test {
+	text-align: center;
+}

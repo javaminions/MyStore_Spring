@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+/* The styles for the elements */
+.registrationContainer { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+	margin: auto;
+    width: 400px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.align_left {
+    text-align: left;
+}
+.align_right {
+    text-align: left;
+}
+
+#registration {
+	text-align: center;
+}
+
+h1 {     
+    margin-bottom: .5em;    
+}
+h2 p {     
+    margin-bottom: .5em;    
+}
+
+  
+form input:invalid {
+  border-color: red;
+  border-width: 1.2px;
+}
+
+form input[type="text"]:valid, input[type="email"]:valid, input[type="password"]:valid {
+	border-color: lightblue;
+}
+
+
+
+
+
+

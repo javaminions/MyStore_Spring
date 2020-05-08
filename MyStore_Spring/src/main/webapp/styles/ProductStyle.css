@@ -1,0 +1,35 @@
+.prod-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 23%;
+}
+.des {
+	text-align: center;
+}
+
+.prod-info,
+.prod-price {
+	text-align: center;
+}
+
+#cartadd {
+  display: block;
+  max-width: 100px;
+  margin: auto;
+
+}
+
+#prod-brand {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+
+.back {
+  background-color: #ab93e3;
+  border-radius: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,79 @@
+
+.imgheight img {
+	height: 35% !important;
+}
+#carousel2 .nav a small {
+	display: block;
+}
+
+#carousel2 .nav {
+	background: #eee;
+}
+
+#carousel2 .nav {
+	background: white;
+}
+
+#carousel2 .nav a {
+	border-radius: 0px;
+}
+
+#carousel2 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: auto;
+	margin: auto;
+}
+
+
+#carousel2 .carousel-inner>.item>img {
+	margin: 0 auto;
+}
+
+#carousel2 .carousel-indicators li {
+	display: inline-block;
+	text-indent: 0;
+	cursor: pointer;
+	border: none;
+	border-radius: 50%;
+	background-color: black;
+}
+
+
+#carousel2 .carousel-indicators .active {
+	background-color: blue;
+}
+
+#carousel2 .carousel-indicators>li, .carousel-indicators>li.active {
+	width: 100px;
+	height: 25px;
+	border-radius: 0;
+	background: white;
+	color: black;
+	border-radius: 20px;
+}
+
+#carousel2 .carousel-indicators>li.active {
+	background: rgb(0, 115, 166);
+	color: white;
+	border-radius: 20px;
+}
+
+#carousel2 .carousel {
+	padding-bottom: 60px;
+}
+
+#carousel2 .carousel-caption p {
+	
+	text-align: center;
+	padding-right: 35px;
+	float: right;
+	font-size: 12px;
+	font-family: arial;
+	color: black;
+	text-shadow: 0 0 0 #eee;
+}
+
+#carousel2 .carousel-caption {
+    top: auto;
+    bottom: 0;
+}
+
